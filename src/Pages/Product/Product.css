@@ -1,0 +1,325 @@
+.Happy {
+    width: 100%;
+    height: 700px;
+  }
+  .Happy1 {
+    width: 100%;
+    height: 1000px; /* Adjusted height */
+    line-height: 30px;
+    /* margin-left: 20px; */
+    /* border: 2px solid black; */
+    /* background-color: rgb(158, 147, 147); */
+    background-image: url('../../Components/asset/image/images17.png');
+  }
+  
+  
+  .chooseone {
+    padding-top: 30px;
+  }
+  
+  #main {
+    width: 100%;
+    height: 1000px;
+    /* border: 5px solid red; */
+    margin: auto;
+  }
+  
+  #product-left{
+    width: 30%;
+    height: 1000px;
+    border: 2px solid green;
+  }
+  .product-container {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .product-card {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    /* border: 2px solid red; */
+  }
+  
+  .product-image2 {
+    width: 100%;
+    height: 250px;
+    background-color: #f4f4f4;
+    background-size: cover;
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .discount {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .buy-now-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #1D0249;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  #Product-left {
+    width: 35%;
+    height: 600px;
+  }
+  
+  #main {
+    display: flex;
+  }
+  
+  .Anku {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: #f4f4f4;
+  }
+  
+  .output {
+    color: black;
+  }
+  
+  .starss {
+    cursor: pointer;
+    color: rgb(155, 155, 60);
+  }
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 1235px) {
+  
+    .Happy {
+      width: 80%;
+      height: 1000px;
+    }
+    .select1{
+      width:20%
+    }
+    
+    
+    .Happy1 {
+      width: 100%;
+      height: 1000px; /* Adjusted height */
+      line-height: 30px;
+      /* margin-left: 20px; */
+      /* border: 2px solid black; */
+      /* background-color: rgb(158, 147, 147); */
+      background-image: url('../../Components/asset/image/images17.png');
+      
+    }
+    
+    
+    .chooseone {
+      
+      padding-top: 30px;
+    }
+    .catagrious{
+      width: 80%;
+      margin-top: 20px;
+    }
+    .maku{
+      padding-top: 40px;
+      font-weight: 100;
+    }
+    .output{
+      width: 92%;
+      font-size: 11px;
+    }
+    .input1{
+      width: 80%;
+    }
+    .cheku{
+      width:10px;
+    }
+    
+  
+  
+  
+    #main {
+      width: 100%;
+      height: 1000px;
+      /* border: 5px solid red; */
+      margin: auto;
+    }
+    
+    #product-left{
+      width: 30%;
+      height: 200px;
+      border: 2px solid green;
+    }
+    .product-container {
+      /* flex-wrap: wrap; */
+      
+      
+      justify-content: space-around;
+      /* padding: 20px; */
+      display: flex;
+      
+    }
+    
+    .product-card {
+      width: 80%;
+      max-width: 250px;
+      margin: 20px;
+      /* background-color: #fff; */
+      border-radius: 8px;
+      /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+      overflow: hidden;
+      /* border: 2px solid red; */
+    }
+    
+    .product-image2 {
+      width: 80%;
+      height: 130px;
+      background-color: #f4f4f4;
+      background-size: cover;
+    }
+    
+    
+    
+    .product-price {
+      font-size: 15px;
+      color: #333;
+    }
+    
+    .discount {
+      color: green;
+      font-weight: bold;
+    }
+    
+    .buy-now-btn {
+      display: block;
+      width: 80%;
+      /* padding: 10px; */
+      text-align: center;
+      background-color: #1D0249;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      /* margin-top: 10px; */
+    }
+    
+    #Product-left {
+      width: 35%;
+      height: 300px;
+    }
+    
+    
+    
+    .Anku {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background-color: black;
+      color: #f4f4f4;
+      line-height: 20px;
+    }
+    
+    .output {
+      color: black;
+    }
+    
+    .starss {
+      cursor: pointer;
+      color: rgb(155, 155, 60);
+    }
+    
+    
+  
+  }
+  @media screen and (max-width: 824px){
+    .Happy1 {
+      width: 150px;
+      height: 2100px;
+  }
+  .product-container{
+    height: 100px;
+  }
+  }
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

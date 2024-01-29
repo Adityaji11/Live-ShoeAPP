@@ -1,0 +1,58 @@
+/* PreHeader.css */
+
+.pre-header {
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .pre-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-content span {
+    font-weight: bold;
+  }
+  
+  .pre-header-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .pre-header-nav ul li a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link-effect::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .link-effect:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .link-effect:hover {
+    color: #4b0fe3; /* Change to your desired hover color */
+  }
+  
+  /* Add more styles as needed */
+  

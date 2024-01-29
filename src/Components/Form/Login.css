@@ -1,0 +1,125 @@
+
+
+  .login-page{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  .login-form {
+    background-color: #fff;
+    width: 600px;
+    padding-left: 20px;
+  }
+  
+  .login-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  
+  .login-header h5 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #777;
+  }
+  .login-instantly h5{
+    color: #777;
+  }
+
+  .login-instantly{
+    margin-top: 50px;
+  }
+
+  .login-instantly div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 450px;
+  }
+  .login-instantly div div img{
+    width: 200px;
+    height: 100px;
+  }
+
+  
+  /* Styling for inputs and buttons */
+  .input-fields div {
+    margin-bottom: 15px;
+  }
+  
+  .input-fields input[type='text'],
+  .input-fields input[type='password'],
+  .input-fields input[type='number'],
+  .login-button button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  }
+  .input-fields{
+    width: 400px;
+  }
+  .login-button{
+    padding-top: 30px;
+    width: 420px;
+  }
+  .login-image{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+  }
+
+  .login-image img {
+    width: 95%;
+    height: 95%;
+  }
+  /* Hover effects */
+  .input-fields input[type='text']:hover,
+  .input-fields input[type='password']:hover,
+  .login-button button:hover {
+    border-color: #666;
+  }
+  
+  /* Animation effects */
+  .login-button button {
+    background-color: #481EA1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .login-button button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Other styles */
+  .remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+  }
+  .custom-link{
+        text-decoration: none;
+  }
+  .signup-link{
+    margin-top: 10px;
+    display: flex;
+  }
+  .signup-link div {
+    margin-top: 10px;
+  }
+  
+ .back-Arrow img{
+  height: 35px;
+  width: 60px;
+    /* border: 1px solid black; */
+    padding-bottom: 15px;
+
+ }  

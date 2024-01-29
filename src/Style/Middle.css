@@ -1,0 +1,27 @@
+.shoe-shop {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .main-component {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .product-image {
+    flex-basis: 20%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: 3vh;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1);
+  }
